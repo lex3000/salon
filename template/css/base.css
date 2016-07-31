@@ -1,0 +1,383 @@
+/*
+This file is made by themedo (2015)
+This css file includes all base styles and template's main color (in this tempalte main color is pink(#f00a77)). 
+Template's main color styles located at the bottom of this file.
+*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td
+	{
+	background: transparent;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+	outline: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+    display: block;
+}
+
+blockquote {
+	quotes: none;
+}
+
+blockquote:before,blockquote:after {
+	content: '';
+	content: none;
+}
+img{
+	vertical-align:middle;
+	max-width:100%;
+}
+.td_gmap img{
+	max-width:none;
+}
+
+iframe{
+	max-width:100%;
+}
+del {
+	text-decoration: line-through;
+}
+a, a > *, i{
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+	border:none;
+}
+a:hover{text-decoration:none;}
+h1, h2, h3, h4, h5, h6{
+	font-weight:500;
+	color:#333;
+	margin-bottom:20px;
+}
+h1 { font-size: 45px; }
+h2 { font-size: 36px; }
+h3 { font-size: 30px; }
+h4 { font-size: 24px; }
+h5 { font-size: 20px; }
+h6 { font-size: 16px; }
+
+table{
+	width:100%;
+	max-width:100%;
+	text-align:left;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	margin-bottom:15px;
+	color:#888;
+	border:1px solid #ebebeb;
+}
+table tr{
+	border:1px solid #ebebeb;
+}
+table th{
+	vertical-align:top;
+	color:#444;
+	background:none;
+	font-size:16px;
+	font-weight:normal;
+	padding:15px 10px;
+}
+table td{
+	vertical-align:top;
+	padding:10px;
+}
+div.td_fake_table{
+	position:relative;
+	display:table;
+	width:100%;
+}
+div.td_fake_tablecell{
+	position:relative;
+	display:table-cell;
+	vertical-align:middle;
+	width:100%;
+}
+
+code, pre {
+	padding: 10px;
+	padding-bottom: 0;
+	border-left: 3px solid #6FBF71;
+	border-bottom: 1px solid transparent;
+	background: #f7f7f7;
+	overflow-x:scroll;
+}
+
+pre{
+	display: block;	
+	word-break: break-all;
+	word-wrap: break-word;
+}
+pre code { white-space: pre-wrap; }
+
+p{
+	letter-spacing:1px;
+}
+ul.td_list{
+	-webkit-perspective:500px;
+	-moz-perspective:500px;
+	perspective:500px;
+	clear:both;	
+}
+ul.td_list li{
+	margin-bottom:10px;
+	padding-left:8px;
+	margin-left:12px;
+	position:relative;
+}
+
+
+.themedotip { font-size: 13px; position: absolute; padding: 5px; z-index: 20 !important;}
+  .tdtip-inner { background-color: #000; color: #fff !important; font-weight:normal; max-width: 200px; padding: 10px 20px 11px 20px; text-align: center; transform: translateZ(0px); -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px;}
+  
+  .tdtip-inner h3{font-size:15px; margin-bottom:7px; margin-top:7px; font-weight:600; letter-spacing:1; text-transform:uppercase; color:#fff !important;}
+  .tdtip-inner p{font-size:13px; margin-bottom:7px; color:#fff !important}
+
+.themedotip.light .tdtip-inner{background-color: #fff; color: #111 !important;}
+.themedotip.light .tdtip-inner h3{color:#111 !important;}
+.themedotip.light .tdtip-inner p{color:#111 !important;}
+  /* Rounded corners */
+  .tdtip-inner {}
+  
+  /* Uncomment for shadow */
+  /*.tdtip-inner { box-shadow: 0 0 5px #000000; -webkit-box-shadow: 0 0 5px #000000; -moz-box-shadow: 0 0 5px #000000; }*/
+  
+  .themedotip-arrow { position: absolute; width: 0; height: 0; line-height: 0; border: 5px dashed #111; }
+  
+  /* Rules to colour arrows */
+  .themedotip-arrow-n { border-bottom-color: #000; }  .themedotip.light .themedotip-arrow-n { border-bottom-color: #fff; }
+  .themedotip-arrow-s { border-top-color: #000; }     .themedotip.light .themedotip-arrow-s { border-top-color: #fff; }
+  .themedotip-arrow-e { border-left-color: #000; }    .themedotip.light .themedotip-arrow-e { border-left-color: #fff; } 
+  .themedotip-arrow-w { border-right-color: #000; }   .themedotip.light .themedotip-arrow-w { border-right-color: #fff; }
+  
+	.themedotip-n .themedotip-arrow { top: 0px; left: 50%; margin-left: -5px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent; }
+    .themedotip-nw .themedotip-arrow { top: 0; left: 10px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent;}
+    .themedotip-ne .themedotip-arrow { top: 0; right: 10px; border-bottom-style: solid; border-top: none;  border-left-color: transparent; border-right-color: transparent;}
+  .themedotip-s .themedotip-arrow { bottom: 0; left: 50%; margin-left: -5px; border-top-style: solid; border-bottom: none;  border-left-color: transparent; border-right-color: transparent; }
+    .themedotip-sw .themedotip-arrow { bottom: 0; left: 10px; border-top-style: solid; border-bottom: none;  border-left-color: transparent; border-right-color: transparent; }
+    .themedotip-se .themedotip-arrow { bottom: 0; right: 10px; border-top-style: solid; border-bottom: none; border-left-color: transparent; border-right-color: transparent; }
+  .themedotip-e .themedotip-arrow { right: 0; top: 50%; margin-top: -5px; border-left-style: solid; border-right: none; border-top-color: transparent; border-bottom-color: transparent; }
+  .themedotip-w .themedotip-arrow { left: 0; top: 50%; margin-top: -5px; border-right-style: solid; border-left: none; border-top-color: transparent; border-bottom-color: transparent; }
+
+
+
+.mb_popup{
+	width:500px;
+	max-width:100%;
+	padding:50px;
+	height:auto;
+	background:#fff;
+	position:relative;
+	margin:0px auto;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	-ms-box-sizing: border-box;     /* IE 10 + */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.mb_popup p{
+	margin-bottom:30px;
+}
+.mb_popup a.button{
+	margin-bottom:3px;
+}
+
+.max200{ max-width:200px; }
+.max300{ max-width:300px; }
+.max400{ max-width:400px; }
+.max500{ max-width:500px; }
+.max600{ max-width:600px; }
+.max700{ max-width:700px; }
+.max800{ max-width:800px; }
+.max900{ max-width:900px; }
+.max1000{ max-width:1000px; }
+
+.space10{width:100%; float:left; clear:both; margin-bottom:10px;}
+.space20{width:100%; float:left; clear:both; margin-bottom:20px;}
+.space30{width:100%; float:left; clear:both; margin-bottom:30px;}
+.space40{width:100%; float:left; clear:both; margin-bottom:40px;}
+.space50{width:100%; float:left; clear:both; margin-bottom:50px;}
+.space60{width:100%; float:left; clear:both; margin-bottom:60px;}
+.space70{width:100%; float:left; clear:both; margin-bottom:70px;}
+.space80{width:100%; float:left; clear:both; margin-bottom:80px;}
+.space90{width:100%; float:left; clear:both; margin-bottom:90px;}
+.space100{width:100%; float:left; clear:both; margin-bottom:100px;}
+.space200{width:100%; float:left; clear:both; margin-bottom:200px;}
+.space300{width:100%; float:left; clear:both; margin-bottom:300px;}
+.space400{width:100%; float:left; clear:both; margin-bottom:400px;}
+.space500{width:100%; float:left; clear:both; margin-bottom:500px;}
+.space1000{width:100%; float:left; clear:both; margin-bottom:1000px;}
+/*------------------------------------------------------------------*/ 
+/*	x) FORM ELEMENTS
+/*------------------------------------------------------------------*/
+textarea{
+	border-radius:0;
+	font-size:13px;
+	color:#333;
+	resize:vertical;
+	font-family:'Raleway', Arial, Helvetica, sans-serif;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	-ms-box-sizing: border-box;     /* IE 10 + */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	
+	line-height:1.4;
+	padding:10px!important;
+	width:100%;
+	border:1px solid #f1f1f1;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+	border-radius:0;
+	font-size:13px;
+	min-width:220px;
+	color:#333;
+	letter-spacing:0.5px;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	-ms-box-sizing: border-box;     /* IE 10 + */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	
+	font-family:'Raleway', Arial, Helvetica, sans-serif;
+	
+	line-height:1.6;
+	padding:10px!important;
+	height:44px;
+	vertical-align:middle;
+	border:1px solid #f1f1f1;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+	
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+	border-color:#ddd;
+}
+
+
+input[type="submit"],
+input[type="button"]{
+	padding: 13px 25px;
+	height: 40px;
+	line-height: 1;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 500;
+	color: #FFF;
+	text-decoration: none;
+	letter-spacing: 1px;
+	border:none;
+	cursor:pointer;
+	position:relative;
+	
+	font-family:'Raleway', Arial, Helvetica, sans-serif;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover{
+	opacity:0.9;
+}
+select{
+	padding:8px;
+	border:2px solid #eee;
+}
+
+
+
+
+
+/*------------------------------------------------------------------*/ 
+/*	x) TEMPLATE COLORS
+/*------------------------------------------------------------------*/
+a,
+nav.td_nav ul.td_nav li a:hover,
+nav.td_nav ul.td_nav li.sfHover > a,
+nav.td_nav ul.td_nav li.is-active > a,
+nav.td_nav ul.td_nav li.is-active > span > a,
+.td_section_title h3 span span,
+.serviceIntro ul.etabs li a.active,
+.testimonials .td_quote,
+.footer p.copyright a:hover,
+.footer ul.social li a:hover i{
+	color:#c63db1;
+}
+
+.td_buttons .td_booking,
+.td_btn,
+.td_btn::after,
+.td_topbar .td_mobile_trigger a,
+.footer p.copyright a:before,
+.td_blog_intro .content_holder a:before,
+.main_title h1 span,
+.pagination ul li a.current,
+.pagination ul li a.current:hover,
+.wid-title:after,
+ul.brochures li a:hover i,
+.pr_column.active .pr_head_top,
+.pr_column.active .pr_head_bottom,
+.td_accordion[data-skin="currentLight"] .accordion_in .acc_head,
+.td_accordion[data-skin="currentLight"] .accordion_in.acc_active .acc_head,
+.td_accordion[data-skin="currentLight"] .accordion_in .acc_content,
+.td_accordion[data-skin="currentDark"] .accordion_in .acc_head,
+.td_accordion[data-skin="currentDark"] .accordion_in.acc_active .acc_head,
+.td_accordion[data-skin="currentDark"] .accordion_in .acc_content,
+.td_toggle_wrap[data-skin="currentLight"] .td_toggle .tog_head,
+.td_toggle_wrap[data-skin="currentLight"] .td_toggle .tog_content,
+.td_toggle_wrap[data-skin="currentDark"] .td_toggle .tog_head,
+.td_toggle_wrap[data-skin="currentDark"] .td_toggle .tog_content,
+.td_service_list .td_service_title span.td_price{
+	background-color:#c63db1;
+}
+nav.td_nav ul.td_nav > li.sf-with-ul.sfHover > a:after,
+.serviceIntro ul.etabs li a.active:after{border-top-color:#c63db1;}
+nav.td_nav ul.td_nav ul li.sf-with-ul.sfHover:after{border-left-color:#c63db1;}
+.td_btn:before,
+.td_buttons .td_booking:before,
+.td_service_list .td_service_image .iw:before{border-color:#c63db1;}
