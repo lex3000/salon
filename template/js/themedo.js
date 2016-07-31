@@ -1155,53 +1155,7 @@ jQuery(document).ready(function($){
 	
 	
 	
-	// -----------------------------------------------------
-	// ----------------    GOOGLE MAP    -------------------
-	// -----------------------------------------------------
-	
-	if(jQuery().gmap3){
-		$(".td_gmap").gmap3({
-			map:{
-				options:{
-					zoom:14,
-					center:[40.7568604,-73.989603],
-					scrollwheel: false,
-				}
-			},
-			marker:{
-				values:[
-				  {address:"New York Times Building, NY, USA", data:"Times Building", options:{icon: "img/marker.png"}}
-				],
-				options:{
-				  draggable: false
-				},
-				events:{
-				  mouseover: function(marker, event, context){
-					var map = $(this).gmap3("get"),
-					  infowindow = $(this).gmap3({get:{name:"infowindow"}});
-					if (infowindow){
-					  infowindow.open(map, marker);
-					  infowindow.setContent(context.data);
-					} else {
-					  $(this).gmap3({
-						infowindow:{
-						  anchor:marker, 
-						  options:{content: context.data}
-						}
-					  });
-					}
-				  },
-				  mouseout: function(){
-					var infowindow = $(this).gmap3({get:{name:"infowindow"}});
-					if (infowindow){
-					  infowindow.close();
-					}
-				  }
-				}
-			}
-		});	
-	}
-	
+
 
 	// -----------------------------------------------------
 	// ----------------    TOTOP BUTTON    -----------------

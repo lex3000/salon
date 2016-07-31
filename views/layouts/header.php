@@ -57,6 +57,7 @@
                 <div class="container">
                     <div class="td_top_wrap">
                         <div class="td_logo"><a href="/"><img src="/template/img/logo_1.jpg" alt="" /></a></div>
+                        <div class="td_top_span"><spaan>Салон красоны в Обнинске</spaan></div>
 
                         <!-- MOBILE NAV TRIGGER -->
                         <div class="td_mobile_trigger">
@@ -140,6 +141,7 @@
                                 <li><a href="/about">О нас</a></li>
                                 <li><a href="/contact">Контакты</a></li>
                                 <li><a href="/">Главная</a></li>
+                                <li><a href="/">Тел: 8(906)641-79-59</a></li>
                             </ul>
                         </nav>
                         <!-- /NAVIGATION -->
@@ -204,6 +206,9 @@
                                 <li><a href="/about">О нас</a></li>
                                 <li><a href="/contact">Контакты</a></li>
                                 <li><a href="/">Главная</a></li>
+                                <li><a href="/">Тел: 8(906)641-79-59</a></li>
+
+
                             </ul>
                         </div>
                         <!-- /MOBILE NAV -->

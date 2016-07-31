@@ -76,66 +76,9 @@
                                 </div>
 
 
-                                <div class="space100"></div>
+
                                 <div class="clearfix"></div>
-                                <h4>Наша команда</h4>
-                                <!-- TEAM MEMBERS -->
-                                <div class="row">
-
-                                    <div class="td-col-3">
-                                        <div class="td_member" data-text-hor-pos="left">
-                                            <div class="td_member_holder">
-                                                <div class="img_holder"><img src="../../template/img/team/master.jpg" alt="" /></div>
-                                                <div class="title_holder">
-                                                    <h3>Mark Coleman</h3>
-                                                    <span>CEO, Director</span>
-                                                    <p>Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis aliquam.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="td-col-3">
-                                        <div class="td_member" data-text-hor-pos="left">
-                                            <div class="td_member_holder">
-                                                <div class="img_holder"><img src="../../template/img/team/master.jpg" alt="" /></div>
-                                                <div class="title_holder">
-                                                    <h3>Rick Hammer</h3>
-                                                    <span>Stylist, Designer</span>
-                                                    <p>Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis aliquam.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="td-col-3">
-                                        <div class="td_member" data-text-hor-pos="left">
-                                            <div class="td_member_holder">
-                                                <div class="img_holder"><img src="../../template/img/team/master.jpg" alt="" /></div>
-                                                <div class="title_holder">
-                                                    <h3>Jonathan Smith</h3>
-                                                    <span>Stylist, Cosmetologist</span>
-                                                    <p>Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis aliquam.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="td-col-3 last">
-                                        <div class="td_member" data-text-hor-pos="left">
-                                            <div class="td_member_holder">
-                                                <div class="img_holder"><img src="../../template/img/team/master.jpg" alt="" /></div>
-                                                <div class="title_holder">
-                                                    <h3>Brohn Doeta</h3>
-                                                    <span>Stylist, Therapist</span>
-                                                    <p>Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis aliquam.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <!-- /TEAM MEMBERS -->
+                         
 
                             </section>
                             <!-- /PRICING TABLE -->
