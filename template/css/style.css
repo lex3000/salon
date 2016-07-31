@@ -199,6 +199,7 @@ nav.td_nav ul.td_nav{
 	float:right;
 	list-style-type:none;
 	position:relative;
+	top: -10px;
 	z-index:5;
 }
 nav.td_nav ul.td_nav > li{
@@ -361,6 +362,13 @@ nav.td_nav ul.td_nav ul li.sf-with-ul:after{
 	padding-top:28px;
 	display:none;
 }
+.td_top_span{
+	display: inline-block;
+	position: relative;
+	top: 38px;
+	color: #fff;
+}
+
 .td_topbar .td_mobile_trigger a{
 	width:auto;
 	height:auto;

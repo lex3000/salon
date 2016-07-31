@@ -20,7 +20,8 @@
                                 <div class="td_intro_in">
                                     <div class="td_black_one">
                                         <h3 class="td_speacial_font">Добро пожаловать</h3>
-                                        <h3 class="td_speacial_font">НМ студия</h3>
+                                        <h3 class="td_speacial_font">в салон красоты</h3>
+                                        <h3 class="td_speacial_font">НМ Студия</h3>
                                         <div class="td_intro_separator">
                                             <div class="line_left line">
                                                 <span class="big_bullet dot"></span>
